@@ -31,12 +31,33 @@
 {
   background-color: #3AD886;
   border-radius: 10px;
-  float: right;
+  height: 50vh;
+  width: 20vw;
 }
 
 .Product_Box
 {
   background-color: #D34735;
-  width: 400px;
+  width: 500px;
+  height: 30vh;
   border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
 }
+
+.Body
+{
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1; 
+}
+
+.Product_Img
+{
+  margin: 20px;
+}
+
+/* .Product_Data
+{
+  
+} */
