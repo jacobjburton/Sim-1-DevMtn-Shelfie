@@ -1,10 +1,11 @@
 import React from 'react';
 
-function Product()
+function Product(props)
 {
+    
     return (
         <div>
-            <h1>Product Component</h1>
+            {props.display}
         </div>
     );
 }
